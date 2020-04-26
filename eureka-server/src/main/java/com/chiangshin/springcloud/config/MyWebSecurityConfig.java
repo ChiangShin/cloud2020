@@ -1,4 +1,4 @@
-package com.chiangshin.springcloud;
+package com.chiangshin.springcloud.config;
 
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
