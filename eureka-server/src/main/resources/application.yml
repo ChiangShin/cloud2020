@@ -3,7 +3,7 @@ server:
 
 eureka:
   server:
-    enableSelfPreservation: true
+    enableSelfPreservation: false
     evictionIntervalTimerInMs: 5000
   instance:
     hostname: localhost

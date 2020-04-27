@@ -1,8 +1,8 @@
 spring:
   application:
-    name: demo-client
+    name: hystrix-dashboard
 server:
-  port: 9001
+  port: 8900
 eureka:
   client:
     serviceUrl:
