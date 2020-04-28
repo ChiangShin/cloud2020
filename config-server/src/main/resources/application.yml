@@ -1,0 +1,25 @@
+server:
+  port: 8002
+spring:
+  profiles:
+    active: dev
+  security:
+    basic:
+      enable: true
+    user:
+      name: root
+      password: 123456
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ChiangShin/config-repo/     # 配置git仓库的地址
+          search-paths: config                             # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username: chiangshin                                            # git仓库的账号
+          password: wldwl792                                            # git仓库的密码
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:123456@localhost:8761/eureka/

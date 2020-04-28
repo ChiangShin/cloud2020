@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: demo-server
-server:
-  port: 9000
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://root:123456@localhost:8761/eureka/
